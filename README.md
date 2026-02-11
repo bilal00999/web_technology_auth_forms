@@ -1,7 +1,5 @@
 # web_technology_auth_forms
 
-# PHP Authentication App
-
 A simple authentication system built with core PHP, HTML, and CSS.
 
 This project demonstrates how login, signup, sessions, and protected pages work without any framework or database. It stores users in a text file and uses PHP sessions for authentication.
@@ -57,8 +55,3 @@ Tech Stack
 * PHP Sessions
 * File handling functions like file() and file_put_contents()
 
-
-
-License
-
-Free to use for learning and educational purposes.
