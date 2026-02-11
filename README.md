@@ -57,57 +57,7 @@ Tech Stack
 * PHP Sessions
 * File handling functions like file() and file_put_contents()
 
-How To Run
 
-Step 1
-Install a local server like XAMPP or Laragon
-
-Step 2
-Move the project folder into:
-htdocs for XAMPP
-www for Laragon
-
-Step 3
-Start Apache server
-
-Step 4
-Open browser:
-http://localhost/auth app/login.php
-
-Security Notes
-
-This project is for learning only.
-
-Passwords are stored in plain text. This is not safe for production.
-
-For real projects you should:
-
-* Hash passwords using password_hash()
-* Use MySQL or PostgreSQL instead of text files
-* Validate inputs
-* Prevent SQL injection and XSS
-* Add CSRF protection
-
-Future Improvements
-
-* Add password hashing
-* Use database instead of users.txt
-* Add email verification
-* Add remember me feature
-* Add admin panel
-* Add form validation with JavaScript
-
-What You Learn
-
-You understand:
-
-* Sessions
-* Form handling
-* File storage
-* Redirects
-* Basic authentication flow
-
-This is the raw mechanics of web security. Frameworks automate this later, but this shows what actually happens behind the curtain.
 
 License
 
